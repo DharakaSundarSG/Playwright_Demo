@@ -1,7 +1,7 @@
 import { Sauce_Lab_Login } from "../dowloads/Sauce_Lab_Login_Page";
 import test from "@playwright/test";
 import { Utils } from "../pages/Utils";
-import users from "..\\tests\\Test_data\\data.json"
+import users from "../tests/Test_data/data.json"
 const role = process.env.USER_ROLE;
 // Filter matching user
 const roles = process.env.USER_ROLE?.split(',');
